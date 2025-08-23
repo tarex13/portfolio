@@ -11,7 +11,7 @@ import { CiLink, CiMail } from "react-icons/ci";
 import { IoMdSend } from "react-icons/io";
 import { MdClose } from "react-icons/md";
 import { RiSendPlane2Line } from "react-icons/ri";
-import Projects from "./components/projects";
+import Projects from "./components/Projects";
 
 function App() {
   const [section, setSection] = useState("home");
