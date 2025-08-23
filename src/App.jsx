@@ -78,7 +78,7 @@ function App() {
       )}
       <div className="w-screen h-screen relative flex items-center justify-center bg-gradient-to-tr from-[#0E1A1F] via-[#1A2E4D] via-[#2E4F73] to-[#3A6D92] ">
         <AnimatePresence>
-          <motion.div className="h-[80%] w-[80%] relative">
+          <motion.div className="md:h-[80%] h-[95%] md:w-[80%] w-[90%] relative">
             <AnimatePresence mode="wait">
               {section === "home" && (
                 <Home

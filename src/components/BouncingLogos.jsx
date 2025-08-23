@@ -53,7 +53,7 @@ export default function BouncingLogos({ imageNumber }) {
   ];
 
   return (
-    <motion.div className="flex justify-center items-center relative">
+    <motion.div className="flex justify-center items-center relative w-full">
       <AnimatePresence mode="wait">
         {logos.map(({ img, experience, proficiency, usage }, index) =>
           imageNumber === index ? (
@@ -82,7 +82,7 @@ export default function BouncingLogos({ imageNumber }) {
                 }}
               />
               <motion.div
-                className="w-90 h-50 pt-10 border-2 border-[whitesmoke] bg-[whitesmoke]/90 rounded-lg -mt-10 relative p-2"
+                className="md:w-90 w-full md:h-50 h-auto pt-10 border-2 border-[whitesmoke] bg-[whitesmoke]/90 rounded-lg -mt-10 relative p-2"
                 initial={{ x: 50 }}
                 animate={{ x: 0 }}
                 exit={{ x: -150, opacity: 0 }}
