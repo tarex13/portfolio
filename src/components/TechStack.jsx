@@ -20,7 +20,7 @@ export default function TechStack({
 
       <motion.div
         key="home"
-        className="relative h-full w-full flex flex-col lg:flex-row items-center justify-evenly gap-6 p-4 border-2 border-white rounded-xl overflow-y-auto"
+        className="relative h-full w-full lg:pl-[10vw] flex flex-col lg:flex-row items-center justify-evenly gap-6 p-4 border-2 border-white rounded-xl overflow-y-auto"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -50 }}

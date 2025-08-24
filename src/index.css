@@ -31,6 +31,7 @@
   z-index: 0;
 }
 
+
 .loop-card-glass {
   position: relative;
   width: 240px;
@@ -95,6 +96,17 @@
 
 .container::-webkit-scrollbar-thumb:hover {
   background-color: #6b7280; /* slightly lighter on hover */
+}
+
+@media only screen and (max-width: 700px){
+  .loop-card-glass {
+    width: 180px;
+    height: 220px;
+  }
+  .loop-card-base{
+    width: 180px;
+    height: 220px;
+  }
 }
 
 .josh::after {

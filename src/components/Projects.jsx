@@ -78,34 +78,35 @@ export default function Projects({ section, setSection }) {
         >
           {/* Card: EcoQuest */}
           <motion.div
-            className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-xl p-4 flex flex-col bg-gradient-to-tr from-[#0E1A1F]/20 to-[#1A2E4D]/50"
+            className="bg-white/5 justify-between backdrop-blur-lg rounded-2xl shadow-xl p-4 flex flex-col bg-gradient-to-tr from-[#0E1A1F]/20 to-[#1A2E4D]/50"
             variants={child}
           >
-            <img
-              src="/ecoquest.png"
-              alt="Screenshot of EcoQuest educational game"
-              className="w-full aspect-video object-cover rounded-lg shadow-md mb-4"
-              loading="lazy"
-            />
-            <h3 className="text-lg md:text-xl font-semibold text-white">
-              EcoQuest Game
-            </h3>
-            <p className="text-gray-300 text-sm md:text-base mt-1">
-              An educational game about energy challenges in Canada.
-            </p>
+            <div>
+              <img
+                src="/ecoquest.png"
+                alt="Screenshot of EcoQuest educational game"
+                className="w-full aspect-video object-cover rounded-lg shadow-md mb-4"
+                loading="lazy"
+              />
+              <h3 className="text-lg md:text-xl font-semibold text-white">
+                EcoQuest Game
+              </h3>
+              <p className="text-gray-300 text-sm md:text-base mt-1">
+                An educational game about energy challenges in Canada.
+              </p>
 
-            <div className="flex flex-wrap gap-2 mt-3">
-              <span className="px-2 py-1 text-xs bg-indigo-600/40 text-indigo-100 rounded-full">
-                HTML
-              </span>
-              <span className="px-2 py-1 text-xs bg-teal-600/40 text-teal-100 rounded-full">
-                CSS
-              </span>
-              <span className="px-2 py-1 text-xs bg-yellow-600/40 text-yellow-100 rounded-full">
-                JavaScript
-              </span>
+              <div className="flex flex-wrap gap-2 mt-3">
+                <span className="px-2 py-1 text-xs bg-indigo-600/40 text-indigo-100 rounded-full">
+                  HTML
+                </span>
+                <span className="px-2 py-1 text-xs bg-teal-600/40 text-teal-100 rounded-full">
+                  CSS
+                </span>
+                <span className="px-2 py-1 text-xs bg-yellow-600/40 text-yellow-100 rounded-full">
+                  JavaScript
+                </span>
+              </div>
             </div>
-
             <div className="flex flex-wrap gap-3 mt-4">
               <motion.a
                 whileHover={{ scale: 0.95 }}
@@ -203,32 +204,34 @@ export default function Projects({ section, setSection }) {
 
           {/* Card: Pupaisle */}
           <motion.div
-            className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-xl p-4 flex flex-col bg-gradient-to-tr from-[#0E1A1F]/20 to-[#1A2E4D]/50"
+            className="bg-white/5  justify-between backdrop-blur-lg  rounded-2xl shadow-xl p-4 flex flex-col bg-gradient-to-tr from-[#0E1A1F]/20 to-[#1A2E4D]/50"
             variants={child}
           >
-            <img
-              src="/pupaisle.png"
-              alt="Screenshot of Pupaisle budgeting tool"
-              className="w-full aspect-video object-cover rounded-lg shadow-md mb-4"
-              loading="lazy"
-            />
-            <h3 className="text-lg md:text-xl font-semibold text-white">
-              Pupaisle
-            </h3>
-            <p className="text-gray-300 text-sm md:text-base mt-1">
-              A tool to help students learn how to manage their finances.
-            </p>
+            <div>
+              <img
+                src="/pupaisle.png"
+                alt="Screenshot of Pupaisle budgeting tool"
+                className="w-full aspect-video object-cover rounded-lg shadow-md mb-4"
+                loading="lazy"
+              />
+              <h3 className="text-lg md:text-xl font-semibold text-white">
+                Pupaisle
+              </h3>
+              <p className="text-gray-300 text-sm md:text-base mt-1">
+                A tool to help students learn how to manage their finances.
+              </p>
 
-            <div className="flex flex-wrap gap-2 mt-3">
-              <span className="px-2 py-1 text-xs bg-indigo-600/40 text-indigo-100 rounded-full">
-                HTML
-              </span>
-              <span className="px-2 py-1 text-xs bg-teal-600/40 text-teal-100 rounded-full">
-                CSS
-              </span>
-              <span className="px-2 py-1 text-xs bg-yellow-600/40 text-yellow-100 rounded-full">
-                JavaScript
-              </span>
+              <div className="flex flex-wrap gap-2 mt-3">
+                <span className="px-2 py-1 text-xs bg-indigo-600/40 text-indigo-100 rounded-full">
+                  HTML
+                </span>
+                <span className="px-2 py-1 text-xs bg-teal-600/40 text-teal-100 rounded-full">
+                  CSS
+                </span>
+                <span className="px-2 py-1 text-xs bg-yellow-600/40 text-yellow-100 rounded-full">
+                  JavaScript
+                </span>
+              </div>
             </div>
 
             <div className="flex flex-wrap gap-3 mt-4">
@@ -254,32 +257,34 @@ export default function Projects({ section, setSection }) {
 
           {/* Card: Roman Casio */}
           <motion.div
-            className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-xl p-4 flex flex-col bg-gradient-to-tr from-[#0E1A1F]/20 to-[#1A2E4D]/50"
+            className="bg-white/5  justify-between backdrop-blur-lg rounded-2xl shadow-xl p-4 flex flex-col bg-gradient-to-tr from-[#0E1A1F]/20 to-[#1A2E4D]/50"
             variants={child}
           >
-            <img
-              src="/casio.png"
-              alt="Screenshot of Roman Casio calculator"
-              className="w-full aspect-video object-cover rounded-lg shadow-md mb-4"
-              loading="lazy"
-            />
-            <h3 className="text-lg md:text-xl font-semibold text-white">
-              Roman Casio
-            </h3>
-            <p className="text-gray-300 text-sm md:text-base mt-1">
-              This is a calculator not for numbers, but Roman Numerals.
-            </p>
+            <div>
+              <img
+                src="/casio.png"
+                alt="Screenshot of Roman Casio calculator"
+                className="w-full aspect-video object-cover rounded-lg shadow-md mb-4"
+                loading="lazy"
+              />
+              <h3 className="text-lg md:text-xl font-semibold text-white">
+                Roman Casio
+              </h3>
+              <p className="text-gray-300 text-sm md:text-base mt-1">
+                This is a calculator not for numbers, but Roman Numerals.
+              </p>
 
-            <div className="flex flex-wrap gap-2 mt-3">
-              <span className="px-2 py-1 text-xs bg-red-600/40 text-indigo-100 rounded-full">
-                React
-              </span>
-              <span className="px-2 py-1 text-xs bg-pink-600/40 text-fuchsia-100 rounded-full">
-                Tailwind
-              </span>
-              <span className="px-2 py-1 text-xs bg-yellow-600/40 text-yellow-100 rounded-full">
-                JavaScript
-              </span>
+              <div className="flex flex-wrap gap-2 mt-3">
+                <span className="px-2 py-1 text-xs bg-red-600/40 text-indigo-100 rounded-full">
+                  React
+                </span>
+                <span className="px-2 py-1 text-xs bg-pink-600/40 text-fuchsia-100 rounded-full">
+                  Tailwind
+                </span>
+                <span className="px-2 py-1 text-xs bg-yellow-600/40 text-yellow-100 rounded-full">
+                  JavaScript
+                </span>
+              </div>
             </div>
 
             <div className="flex flex-wrap gap-3 mt-4">

@@ -76,7 +76,7 @@ const Home = ({ section, setSection, imageNumber, setShowPopUp }) => {
         </motion.div>
 
         {/* Avatar */}
-        <div className="relative flex justify-center">
+        <div className="relative  flex justify-center">
           <div className="loop-card-base absolute inset-0" />
           <img
             src="/avatar.jpg"
