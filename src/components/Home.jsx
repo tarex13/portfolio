@@ -79,7 +79,7 @@ const Home = ({ section, setSection, imageNumber, setShowPopUp }) => {
         <div className="relative  flex justify-center">
           <div className="loop-card-base absolute inset-0" />
           <img
-            src="/avatar.jpg"
+            src="/img.png"
             alt="Tara Avatar"
             className="w-28 sm:w-40 md:w-52 lg:w-60 xl:w-72 object-cover shadow-lg loop-card-glass"
           />
