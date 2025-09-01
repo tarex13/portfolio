@@ -30,10 +30,10 @@ const Home = ({ section, setSection, imageNumber, setShowPopUp }) => {
             title="tarex2006@gmail.com"
             onClick={() => setShowPopUp(true)}
           />
-          <CiLinkedin
+          {/*<CiLinkedin
             className="w-12 h-12 text-white p-3 bg-stone-100/20 rounded-full cursor-pointer"
             onClick={() => (location.href = "https://linkedin.com")}
-          />
+          />*/}
           <FaGithub
             className="w-12 h-12 text-white p-3 bg-stone-100/20 rounded-full cursor-pointer"
             onClick={() => (location.href = "https://github.com/tarex13")}
