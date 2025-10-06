@@ -50,6 +50,12 @@ export default function BouncingLogos({ imageNumber }) {
       proficiency: "Familiar With",
       usage: "Personal Projects",
     },
+    {
+      img: "/cpp-logo.png",
+      experience: "Currently Learning",
+      proficiency: "Currently Learning",
+      usage: "Assignments",
+    },
   ];
 
   return (

@@ -83,6 +83,60 @@ export default function Projects({ section, setSection }) {
           >
             <div>
               <img
+                src="/loopfeed2.png"
+                alt="Screenshot of LoopFeed"
+                className="w-full aspect-video object-cover rounded-lg shadow-md mb-4"
+                loading="lazy"
+              />
+              <h3 className="text-lg md:text-xl font-semibold text-white">
+                LoopFeed
+              </h3>
+              <p className="text-gray-300 text-sm md:text-base mt-1">
+                Your personal digital playlist. Create playlists of content from almost any digital content. 
+                (Still a work in progress), but core concepts have been implemented.
+              </p>
+
+              <div className="flex flex-wrap gap-2 mt-3">
+                <span className="px-2 py-1 text-xs bg-indigo-600/40 text-indigo-100 rounded-full">
+                  React
+                </span>
+                <span className="px-2 py-1 text-xs bg-teal-600/40 text-teal-100 rounded-full">
+                  Tailwind
+                </span>
+                <span className="px-2 py-1 text-xs bg-yellow-600/40 text-yellow-100 rounded-full">
+                  Supabase DB
+                </span>
+              </div>
+            </div>
+            <div className="flex flex-wrap gap-3 mt-4">
+              <motion.a
+                whileHover={{ scale: 0.95 }}
+                href="https://loop-feed.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View EcoQuest live site"
+                className="px-3 py-2 border-2 hover:bg-white/30 hover:border-white/30 hover:text-black text-white text-xs sm:text-sm rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-white/60"
+              >
+                View Live
+              </motion.a>
+              <a
+                href="https://github.com/tarex13/loopfeed"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View EcoQuest code on GitHub"
+                className="px-3 py-2 bg-gray-700 hover:bg-gray-600 text-white text-xs sm:text-sm rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-white/60"
+              >
+                Code
+              </a>
+            </div>
+          </motion.div>
+          {/* Card: EcoQuest */}
+          <motion.div
+            className="bg-white/5 justify-between backdrop-blur-lg rounded-2xl shadow-xl p-4 flex flex-col bg-gradient-to-tr from-[#0E1A1F]/20 to-[#1A2E4D]/50"
+            variants={child}
+          >
+            <div>
+              <img
                 src="/ecoquest.png"
                 alt="Screenshot of EcoQuest educational game"
                 className="w-full aspect-video object-cover rounded-lg shadow-md mb-4"

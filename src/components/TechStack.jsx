@@ -44,6 +44,7 @@ export default function TechStack({
               "Django",
               "C",
               "SQL",
+              "C++"
             ].map((tech, index) => (
               <li
                 key={index}
