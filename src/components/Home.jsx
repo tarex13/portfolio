@@ -77,7 +77,7 @@ const Home = ({ section, setSection, imageNumber, setShowPopUp }) => {
 
         {/* Avatar */}
         <div className="relative  flex justify-center">
-          <div className="loop-card-base absolute inset-0" />
+          <div className="loop-card-base absolute inset-0 bg-gradient-to-tr from-[#2e4f5c] via-[#1A2E4D] via-[#2E4F73] to-[#3A6D92]" />
           <img
             src="/img.png"
             alt="Tara Avatar"

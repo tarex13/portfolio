@@ -7,7 +7,7 @@
   width: 240px;
   height: 320px;
   border-radius: 1em;
-  background: linear-gradient(90deg, #3d71f570, hsla(223, 90%, 50%, 0.694));
+  /*background: linear-gradient(90deg, #3d71f570, hsla(223, 90%, 50%, 0.694));*/
   z-index: 0;
 }
 
